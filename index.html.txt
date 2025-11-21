@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+            background: url("background.jpg");
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-box{
+            width: 350px;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .icons{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .icon{
+            width: 35px;
+            height: 35px;
+            background: orange;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .input{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 0;
+            border-bottom: 1px solid #aaa;
+            outline: none;
+        }
+
+        .remember{
+            margin: 10px 0 20px;
+            text-align: left;
+        }
+
+        .btn{
+            width: 100%;
+            padding: 10px;
+            background: orange;
+            color: white;
+            border: 0;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="login-box">
+
+    <div class="icons">
+        <div class="icon">f</div>
+        <div class="icon">t</div>
+        <div class="icon">in</div>
+    </div>
+
+    <input type="text" placeholder="User Name" class="input">
+    <input type="password" placeholder="Enter Your Password" class="input">
+
+    <div class="remember">
+        <input type="checkbox" id="chk">
+        <label for="chk">Remember Password</label>
+    </div>
+
+    <button class="btn">Log In</button>
+
+</div>
+
+</body>
+</html>
+
